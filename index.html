@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<title>Meus pacientes</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="alura.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+
+
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+
+							 <div class="container-fluid">
+									 <div class="navbar-header">
+										 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#">Meus Pacientes</a>
+                    </div>
+								</div>
+
+			 </nav>
+		</header>
+		<main class="container">
+			<section>
+				<h2>Meus pacientes</h2>
+				<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<table class="table table-responsive table-hover">
+										<tr>
+											<th>Nome</th>
+											<th>Peso(kg)</th>
+											<th>Altura(m)</th>
+											<th>IMC</th>
+										</tr>
+										<tr class="paciente">
+											<td class="info-nome">Leonardo</td>
+											<td class="info-peso">57</td>
+											<td class="info-altura">1.67</td>
+											<td class="info-imc"></td>
+										</tr>
+										<tr class="paciente">
+											<td class="info-nome">Paulo</td>
+											<td class="info-peso">100</td>
+											<td class="info-altura">2.00</td>
+											<td class="info-imc"></td>
+										</tr>
+										<tr class="paciente">
+											<td class="info-nome">Stuart</td>
+											<td class="info-peso">120</td>
+											<td class="info-altura">1.80</td>
+											<td class="info-imc"></td>
+										</tr>
+										<tr class="paciente">
+											<td class="info-nome">Rafael</td>
+											<td class="info-peso">110</td>
+											<td class="info-altura">1.60</td>
+											<td class="info-imc"></td>
+										</tr>
+									</table>
+							</div>
+					</div>
+
+
+					<div class="clear"></div>
+
+					<div class="row">
+
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<button id="calcula-imcs" class="botao">Calcular Imcs</button>
+							</div>
+		   	</div>
+
+
+			</section>
+
+			<div class="clear"></div>
+
+			<section>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<h2>Adicionar novo paciente</h2>
+
+							<div class="row">
+											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+													<div class="form-group">
+															<fieldset>
+																<label for="nome">Nome:</label>
+																<input id="campo-nome" type="text" class="form-control input-paciente" placeholder="digite o nome do seu paciente">
+															</fieldset>
+														</div>
+										</div>
+							</div>
+
+						<div class="clear"></div>
+
+							<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+											<div class="form-group">
+												<fieldset>
+													<label for="peso">Peso:</label>
+													<input id="campo-peso" class="form-control input-paciente" type="text" placeholder="digite o peso do seu paciente">
+												</fieldset>
+											</div>
+
+										</div>
+
+
+
+
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+										<div class="form-group">
+											<fieldset>
+												<label for="altura">Altura:</label>
+												<input id="campo-altura" type="text" class="form-control input-paciente" placeholder="digite a altura do seu paciente">
+											</fieldset>
+								</div>
+						</div>
+
+						<div class="clear"></div>
+
+
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+								</div>
+							</div>
+
+						<div class="clear"></div>
+
+
+						</div>
+
+
+			</div>
+			</section>
+		</main>
+				<script src="jquery-3.1.1.min.js"></script>
+				<script src="bootstrap.js"></script>
+				<script src="bootstrap.min.js"></script>
+				<script src="npm.js"></script>
+				<script src="precorre.js"></script>
+      	<script src="calcula-imc.js"></script>
+				<script src="calcula-todos-imcs.js"></script>
+        <script src="imprime-nome.js"></script>
+				<script src="add.js"></script>
+
+	</body>
+</html>
